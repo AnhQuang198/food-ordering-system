@@ -7,10 +7,7 @@ import com.example.system.kafka.order.avro.model.PaymentRequestAvroModel;
 import com.example.system.kafka.producer.service.KafkaProducer;
 import com.example.system.order.service.messaging.mapper.OrderMessagingDataMapper;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.kafka.clients.producer.RecordMetadata;
-import org.springframework.kafka.support.SendResult;
 import org.springframework.stereotype.Component;
-import org.springframework.util.concurrent.ListenableFutureCallback;
 
 @Slf4j
 @Component
